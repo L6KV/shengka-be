@@ -1,0 +1,18 @@
+#硅基流动接口
+siliconflow:
+  token: sk-bfqlnuujdbmbxtlqdcjlohupindjnkxejdqzsvvftldgownw
+  url: https://api.siliconflow.cn
+
+
+#千牛云
+qny:
+  AccessKey: "qQ8YCRg1FPKcpQg77oIkMvaCW-sMs2LIBPQCGh75"
+  SecretKey: "vWZus9L38IJUHZOG-n6pYq4Wp8V7mzIY89DqA00u"
+  Bucket: "1blillion"
+  Domain: "https://qn.letcode.cc/"
+  Zone: "HuaNan"
+
+
+  deepseek:
+    token: "sk-bff722947a734693b8180776ab700c6d"
+    url: "https://api.deepseek.cn/v1/chat/completions"

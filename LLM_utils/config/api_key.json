@@ -1,0 +1,6 @@
+{
+  "api_dp_key": "sk-bff722947a734693b8180776ab700c6d",
+  "dp_base_url": "https://api.deepseek.com",
+  "dp_chat_model": "deepseek-chat",
+  "dp_reasoner_model": "deepseek-coder"
+}
