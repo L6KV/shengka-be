@@ -2,7 +2,7 @@ import pymongo
 from typing import Optional, List, Dict
 
 class MongoUtils:
-    def __init__(self, uri: str = "mongodb://localhost:27017/", db_name: str = "mydatabase"):
+    def __init__(self, uri: str = "mongodb://127.0.0.1:27017/", db_name: str = "mydatabase"):
         self.client = pymongo.MongoClient(uri)
         self.db = self.client[db_name]
 
@@ -33,6 +33,3 @@ class MongoUtils:
         self.client.close()
 
 mongoUtils=MongoUtils()
-
-if __name__=="__main__":
-    mongoUtils.insert_one("test")
